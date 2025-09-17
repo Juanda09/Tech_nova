@@ -1,0 +1,42 @@
+
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
+.env
+.env.*.local
+
+# Archivos de logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Archivos temporales y cache
+.tmp
+dist/
+build/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel/Heroku
+.vercel/
+.now/
+
+# Otros
+package-lock.json
